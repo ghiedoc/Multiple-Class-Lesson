@@ -10,6 +10,10 @@ public class MultipleClass {
         //method with static
         method1();
         MultipleClass.method1();
+        
+        //from other class
+        Plant hello = new Plant();
+        hello.HelloPlant();
     }
     
     public static void method1(){
